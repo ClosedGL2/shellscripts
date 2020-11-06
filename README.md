@@ -4,6 +4,8 @@ Shell scripts that I have written
 ## randcopypasta.sh
 Prints out a random copypasta from [r/copypasta](https://www.reddit.com/r/copypasta/new) on [Reddit](https://www.reddit.com).
 
+Requires [pup](https://github.com/ericchiang/pup) for web scraping.
+
 ```
 $ ./randcopypasta.sh
 
