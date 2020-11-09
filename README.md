@@ -15,6 +15,7 @@ $ ./randcopypasta.sh
 
 ## owoifier.sh
 Uses regex substitution to translate text into furry text.
+
 ```
 $ cat sentence
 The quick brown fox jumps over the lazy dog.
@@ -23,3 +24,17 @@ The quick bwown fox jumps ovew the wazy dog.
 $ ./owoifier.sh sentence
 The quick bwown fox jumps ovew the wazy dog.
 ```
+
+## manpagepdf.sh
+
+Asks user which manual page to view, and opens manual page in PDF format with the PDF viewer specified in an argument.
+
+Requires [dmenu](https://tools.suckless.org/dmenu/) to prompt the user for which manual page to open.
+
+```
+$ ./manpagepdf.sh zathura
+```
+
+![manpagepdf dmenu prompt](images/dmenu.png)
+
+![bash manpage in Zathura](images/manbash.png)
